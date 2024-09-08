@@ -1,5 +1,4 @@
-FROM debian:bookworm
-MAINTAINER John Goerzen <jgoerzen@complete.org>
+FROM debian:buster
 # VNC doesn't start without xfonts-base
 RUN apt-get update && \
     apt-get -y -u dist-upgrade && \
