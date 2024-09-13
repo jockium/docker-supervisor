@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM ubuntu:18.04
 # VNC doesn't start without xfonts-base
 RUN apt-get update && \
     apt-get -y -u dist-upgrade && \
