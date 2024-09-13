@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:bullseye
 # VNC doesn't start without xfonts-base
 RUN apt-get update && \
     apt-get -y -u dist-upgrade && \
